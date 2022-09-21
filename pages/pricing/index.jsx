@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <MainLayout>
         <h1>Pricing Page</h1>
-        
+
         <h1 className="title">
           {/* Ir a <a href="/about">About</a> */}
           Ir a <Link href="/">Home</Link>
@@ -16,7 +16,7 @@ export default function HomePage() {
 
         <p className={'description'}>
           Get started by editing{' '}
-          <code className={'code'}>pages/pricing/index.jsx</code>
+          <code className={'code'}>pages/pricing/index.tsx</code>
         </p>
     </MainLayout>
   )
